@@ -31,6 +31,28 @@
       margin-bottom: 20px;
     }
 
+    .video-wrapper {
+      max-width: 300px;
+      margin: 0 auto 30px auto;
+      text-align: center;
+    }
+
+    .video-wrapper video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      object-fit: cover;
+    }
+
+    .video-caption {
+      margin-top: 10px;
+      color: #555;
+      font-style: italic;
+      font-size: 15px;
+    }
+
     ul {
       list-style: none;
       padding: 0;
@@ -75,34 +97,20 @@
       margin-bottom: 40px;
       margin-right: 10px;
     }
-
-    .video-wrapper {
-      max-width: 400px;
-      margin: 0 auto 40px auto;
-      text-align: center;
-    }
-
-    .video-wrapper video {
-      display: block;
-      width: 100%;
-      aspect-ratio: 9 / 16;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      object-fit: cover;
-    }
-
-    .video-caption {
-      margin-top: 10px;
-      color: #555;
-      font-style: italic;
-      font-size: 15px;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <img src="hashir logo.png" alt="לוגו השיר שלנו" class="logo">
     <h1>השיר שלנו – זמר/ת ליום אחד</h1>
+
+    <div class="video-wrapper">
+      <video controls>
+        <source src="hashir_video_git_high_quality.mp4" type="video/mp4">
+        הדפדפן שלך לא תומך בניגון וידאו.
+      </video>
+      <p class="video-caption">🎬 הצצה לחוויה באולפן – צולם במקום</p>
+    </div>
 
     <ul>
       <li>🎤 הקלטת קאבר לשיר שאתם אוהבים או שיר מקורי שיושב לכם במגירה</li>
@@ -115,14 +123,6 @@
 
     <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">שלחו לי הודעה בוואטסאפ</a>
     <a href="https://www.instagram.com/hashirshelanumusic/" class="instagram-button" target="_blank">בואו לעקוב באינסטגרם</a>
-
-    <div class="video-wrapper">
-      <video controls>
-        <source src="hashir_video_git_high_quality.mp4" type="video/mp4">
-        הדפדפן שלך לא תומך בניגון וידאו.
-      </video>
-      <p class="video-caption">🎬 הצצה לחוויה באולפן – צולם במקום</p>
-    </div>
   </div>
 </body>
 </html>
