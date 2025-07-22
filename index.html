@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
@@ -16,7 +17,28 @@
     .container {
       max-width: 700px;
       margin: auto;
-      padding: 20px;
+      padding: 0;
+    }
+    .section-light {
+      background: linear-gradient(to bottom, #ffedb5, #ffe69c);
+      padding: 30px 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .section-lighter {
+      background: linear-gradient(to bottom, #fff8cc, #ffefb0);
+      padding: 30px 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .section-form {
+      background: linear-gradient(to bottom, #fdf2b2, #fbeaa2);
+      padding: 30px 20px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     .logo {
       width: 320px;
@@ -55,17 +77,6 @@
       font-size: 16px;
       margin-bottom: 20px;
     }
-    .instagram-button {
-      display: inline-block;
-      background-color: #833AB4;
-      color: white;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      font-size: 16px;
-      margin-bottom: 40px;
-    }
     .video-wrapper {
       width: 300px;
       height: 240px;
@@ -77,6 +88,7 @@
       height: 100%;
       border-radius: 12px;
       object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     }
     .video-caption {
       font-style: italic;
@@ -122,8 +134,6 @@
 <body>
   <div class="container">
     <img src="logo-hashir-new.png" alt="לוגו השיר שלנו" class="logo" />
-
-    <!-- Video section -->
     <div class="video-wrapper">
       <video controls poster="video-poster2.jpg">
         <source src="hashir_video_git_high_quality.mp4" type="video/mp4" />
@@ -132,43 +142,43 @@
     </div>
     <p class="video-caption">🎬 הצצה לחוויה באולפן – צולם במקום</p>
 
-    <!-- Section 1 -->
-    <h1>השיר שלנו – זמר/ת ליום אחד</h1>
-    <ul>
-      <li>🎤 הקלטת קאבר לשיר שאתם אוהבים או שיר מקורי שיושב לכם במגירה</li>
-      <li>🎤 הדרכת קולית ע"י <strong>אלון פאשה מוטקין</strong> – מפיק מוסיקלי עם ניסיון של מעל ל־20 שנה</li>
-      <li>🎧 תיקון זיופים מקצועי וסאונד מקצועי, מיקס ומאסטרינג</li>
-      <li>📁 קובץ דיגיטלי מוכן לשיתוף</li>
-    </ul>
-    <div class="highlight">עכשיו במבצע השקה – 20 אחוזי הנחה</div>
-    <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">הזמינו הקלטת קאבר מתנה עכשיו</a>
+    <div class="section-light">
+      <h1>השיר שלנו – זמר/ת ליום אחד</h1>
+      <ul>
+        <li>🎤 הקלטת קאבר לשיר שאתם אוהבים או שיר מקורי שיושב לכם במגירה</li>
+        <li>🎤 הדרכת קולית ע"י <strong>אלון פאשה מוטקין</strong> – מפיק מוסיקלי עם ניסיון של מעל ל־20 שנה</li>
+        <li>🎧 תיקון זיופים מקצועי וסאונד מקצועי, מיקס ומאסטרינג</li>
+        <li>📁 קובץ דיגיטלי מוכן לשיתוף</li>
+      </ul>
+      <div class="highlight">עכשיו במבצע השקה – 20 אחוזי הנחה</div>
+      <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">הזמינו הקלטת קאבר מתנה עכשיו</a>
+    </div>
 
-    <!-- Section 2 -->
-    <h1>השיר שלנו – קאבר אמן</h1>
-    <ul>
-      <li>🎹 הפקה מוסיקלית אישית לקאבר שאתם אוהבים</li>
-      <li>🎹 אופציה לליווי בלייב כמו הופעה פרטית מוקלטת</li>
-      <li>🎙 מתמקד באיכות, הבעה ופרשנות אישית לשיר</li>
-      <li>🎬 מתאים לזמרים, יוצרים או מי שרוצה חוויה ברמה גבוהה</li>
-    </ul>
-    <div class="highlight">מחירי השקה מיוחדים</div>
-    <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">בוא ניצור קאבר מיוחד משלך</a>
+    <div class="section-lighter">
+      <h1>השיר שלנו – קאבר אמן</h1>
+      <ul>
+        <li>🎹 הפקה מוסיקלית אישית לקאבר שאתם אוהבים</li>
+        <li>🎹 אופציה לליווי בלייב כמו הופעה פרטית מוקלטת</li>
+        <li>🎙 מתמקד באיכות, הבעה ופרשנות אישית לשיר</li>
+        <li>🎬 מתאים לזמרים, יוצרים או מי שרוצה חוויה ברמה גבוהה</li>
+      </ul>
+      <div class="highlight">מחירי השקה מיוחדים</div>
+      <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">בוא ניצור קאבר מיוחד משלך</a>
+    </div>
 
-    <!-- Form section -->
-    <h2>📞 רוצה להתייעץ לפני?</h2>
-    <p>מלא/י את הפרטים ואחזור אליך לשיחה קצרה:</p>
-    <form action="https://formspree.io/f/myzpezjz" method="POST">
-      <label for="name">שם מלא:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="phone">טלפון:</label>
-      <input type="text" id="phone" name="phone" required />
-
-      <label for="message">מה תרצה להקליט?</label>
-      <textarea id="message" name="message" rows="4"></textarea>
-
-      <button type="submit">שלח</button>
-    </form>
+    <div class="section-form">
+      <h2>📞 רוצה להתייעץ לפני?</h2>
+      <p>מלא/י את הפרטים ואחזור אליך לשיחה קצרה:</p>
+      <form action="https://formspree.io/f/myzpezjz" method="POST">
+        <label for="name">שם מלא:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="phone">טלפון:</label>
+        <input type="text" id="phone" name="phone" required />
+        <label for="message">מה תרצה להקליט?</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button type="submit">שלח</button>
+      </form>
+    </div>
 
     <footer>
       <p>© 2025 השיר שלנו – הקול שלך. הלב שלך. | 052-2929254</p>
