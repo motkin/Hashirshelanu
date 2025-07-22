@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>השיר שלנו – זמר/ת ליום אחד</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>השיר שלנו – זמר ליום אחד</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,147 +12,164 @@
       color: #5e2178;
       text-align: center;
       padding: 30px;
+      direction: rtl;
     }
     .container {
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 700px;
+      margin: auto;
       padding: 20px;
     }
     .logo {
-      width: 300px;
+      width: 280px;
       margin-bottom: 30px;
     }
     h1 {
-      font-size: 32px;
+      font-size: 30px;
       font-weight: bold;
       margin-bottom: 20px;
-    }
-    .section {
-      margin-bottom: 50px;
     }
     ul {
       list-style: none;
       padding: 0;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 1.8;
       margin-bottom: 30px;
       text-align: right;
     }
+    ul li {
+      margin: 10px 0;
+    }
     .highlight {
+      font-size: 24px;
       font-weight: bold;
-      color: #ff1f1f;
-      font-size: 26px;
-      margin: 20px 0;
+      color: #d35400;
+      margin: 30px 0;
     }
     .whatsapp-button {
       display: inline-block;
       background-color: #25d366;
       color: white;
-      padding: 15px 30px;
+      padding: 12px 25px;
       text-decoration: none;
       border-radius: 30px;
-      font-size: 20px;
       font-weight: bold;
-      margin: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .instagram-button {
+      display: inline-block;
+      background-color: #833AB4;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 40px;
     }
     .video-wrapper {
-      margin: 30px auto;
+      max-width: 300px;
+      margin: 0 auto 20px;
     }
-    video {
-      width: 300px;
-      max-height: 80%;
-      border-radius: 10px;
+    .video-wrapper video {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
     }
     .video-caption {
-      margin-top: 10px;
       font-style: italic;
       color: #555;
+      font-size: 14px;
+      margin-bottom: 20px;
     }
     form {
-      text-align: right;
       max-width: 500px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: auto;
+      text-align: right;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
     }
     input, textarea {
       width: 100%;
       padding: 10px;
-      margin: 10px 0;
+      margin-bottom: 15px;
       border: 1px solid #ccc;
-      border-radius: 5px;
-      font-family: inherit;
+      border-radius: 6px;
+      font-size: 16px;
     }
     button {
-      background-color: #6a1b9a;
+      background-color: #5e2178;
       color: white;
       padding: 12px 25px;
       border: none;
-      border-radius: 5px;
+      border-radius: 30px;
       font-size: 16px;
+      font-weight: bold;
       cursor: pointer;
     }
-    .footer {
+    footer {
       margin-top: 40px;
       font-size: 14px;
-      color: #888;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="logo-hashir-new.png" alt="לוגו השיר שלנו" class="logo">
-    <div class="section">
-      <h1>🎁 השיר שלנו - זמר ליום אחד</h1>
-      <div class="video-wrapper">
-        <video controls poster="video-cover.jpg">
-          <source src="hashir_video_git_high_quality.mp4" type="video/mp4">
-          הדפדפן שלך לא תומך בווידאו.
-        </video>
-        <p class="video-caption">🎬 הצצה לחוויה באולפן – צולם במקום</p>
-      </div>
-      <ul>
-        <li>🎤 מתאים כמתנה לכל אירוע או פשוט לעצמך</li>
-        <li>🎤 הקלטה עם ליווי של <strong>אלון פאשה מוטקין</strong>, מפיק מוסיקלי עם ניסיון של מעל ל־20 שנה</li>
-        <li>🎤 תיקוני שירה, מיקס והפקה</li>
-        <li>🎧 יוצאים עם קאבר מהסרטים</li>
-      </ul>
-      <div class="highlight">מבצע השקה: 20 אחוזי הנחה</div>
-      <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">הזמינו הקלטת קאבר מתנה עכשיו</a>
+    <img src="Hashir logo 2.png" alt="לוגו השיר שלנו" class="logo" />
+
+    <!-- Video section -->
+    <div class="video-wrapper">
+      <video controls poster="IMG_5573 2.jpg">
+        <source src="hashir_video_git_high_quality.mp4" type="video/mp4" />
+        הדפדפן שלך לא תומך בניגון וידאו.
+      </video>
     </div>
+    <p class="video-caption">🎬 הצצה לחוויה באולפן – צולם במקום</p>
 
-    <div class="section">
-      <h1>🎵 קאבר אמן</h1>
-      <ul>
-        <li>🎹 ליווי בלייב כמו הופעה פרטית מוקלטת</li>
-        <li>🎙 מתמקד באיכות, הבעה ופרשנות אישית</li>
-        <li>🎬 מתאים לזמרים, יוצרים או מי שרוצה חוויה ברמה גבוהה</li>
-      </ul>
-      <div class="highlight">מחירי השקה מיוחדים</div>
-      <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">בוא ניצור קאבר מיוחד משלך</a>
-    </div>
+    <!-- Section 1 -->
+    <h1>השיר שלנו – זמר ליום אחד</h1>
+    <ul>
+      <li>🎤 הקלטת קאבר לשיר שאתם אוהבים או שיר מקורי שיושב לכם במגירה</li>
+      <li>🎤 הדרכת קולית ע"י <strong>אלון פאשה מוטקין</strong> – מפיק מוסיקלי עם ניסיון של מעל ל־20 שנה</li>
+      <li>🎧 תיקון זיופים מקצועי וסאונד מקצועי, מיקס ומאסטרינג</li>
+      <li>📁 קובץ דיגיטלי מוכן לשיתוף</li>
+    </ul>
+    <div class="highlight">עכשיו במבצע השקה – 20 אחוזי הנחה</div>
+    <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">הזמינו הקלטת קאבר מתנה עכשיו</a>
 
-    <div class="section">
-      <h1>📞 רוצה להתייעץ לפני?</h1>
-      <form action="https://formspree.io/f/myzpezjz" method="POST">
-        <label for="name">שם מלא:</label>
-        <input type="text" id="name" name="name" required>
+    <!-- Section 2 -->
+    <h1>השיר שלנו – קאבר אמן</h1>
+    <ul>
+      <li>🎹 ליווי בלייב כמו הופעה פרטית מוקלטת</li>
+      <li>🎙 מתמקד באיכות, הבעה ופרשנות אישית לשיר</li>
+      <li>🎬 מתאים לזמרים, יוצרים או מי שרוצה חוויה ברמה גבוהה</li>
+    </ul>
+    <div class="highlight">מחירי השקה מיוחדים</div>
+    <a href="https://wa.me/972522929254" class="whatsapp-button" target="_blank">בוא ניצור קאבר מיוחד משלך</a>
 
-        <label for="phone">טלפון:</label>
-        <input type="tel" id="phone" name="phone" required>
+    <!-- Form section -->
+    <h2>📞 רוצה להתייעץ לפני?</h2>
+    <p>מלא/י את הפרטים ואחזור אליך לשיחה קצרה:</p>
+    <form action="https://formspree.io/f/myzpezjz" method="POST">
+      <label for="name">שם מלא:</label>
+      <input type="text" id="name" name="name" required />
 
-        <label for="message">מה תרצה להקליט?</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <label for="phone">טלפון:</label>
+      <input type="text" id="phone" name="phone" required />
 
-        <button type="submit">שלח</button>
-      </form>
-    </div>
+      <label for="message">מה תרצה להקליט?</label>
+      <textarea id="message" name="message" rows="4"></textarea>
 
-    <div class="footer">
-      © 2025 השיר שלנו – הקול שלך. הלב שלך. | 052-2929254
-    </div>
+      <button type="submit">שלח</button>
+    </form>
+
+    <footer>
+      <p>© 2025 השיר שלנו – הקול שלך. הלב שלך. | 052-2929254</p>
+    </footer>
   </div>
 </body>
 </html>
